@@ -1,0 +1,17 @@
+{
+    "name": "tradingview-webhook",
+    "version": "1.0.0",
+    "description": "Webhook server to process requests from Tradingview",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "author": "",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.16.4",
+      "winston": "^3.8.2",
+      "winston-syslog": "^2.7.0"
+    }
+}
